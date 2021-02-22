@@ -915,10 +915,11 @@ h3 {
   background: #fff;
   border-radius: 5px;
   overflow: hidden;
+  z-index: 1;
 }
 
 .template-card:hover {
-  box-shadow: 0 8px 40px rgba(2, 59, 109, 0.22);
+  box-shadow: 0 8px 40px rgb(13, 63, 107);
 }
 
 .template-card picture {
@@ -951,7 +952,7 @@ h3 {
 .template-card p {
   font-size: 14px;
   color: #555;
-  padding: 10px 10px 10px 20px;
+  padding: 10px 10px 10px 10px;
   margin: 0;
   overflow: hidden;
 }
